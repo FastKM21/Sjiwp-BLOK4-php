@@ -5,27 +5,27 @@ Vulnguard d.o.o. je tvrtka koja pomaže školama, tvrtkama i građanima da razum
 ## Stranice projekta
 
 ### Glavne stranice
-- `index.html` - Početna stranica s pregledom usluga i tima
-- `novo.html` - Novosti
-- `usluge.html` - Naše usluge i cjenik
-- `clanci.html` - Članci o web sigurnosti
-- `o-nama.html` - O nama i tim
-- `kontakt.html` - Kontakt obrazac
+- `index.php` - Početna stranica s pregledom usluga i tima
+- `novo.php` - Novosti
+- `usluge.php` - Naše usluge i cjenik
+- `clanci.php` - Članci o web sigurnosti
+- `o-nama.php` - O nama i tim
+- `kontakt.php` - Kontakt obrazac
 
 ### Pravne stranice
-- `privatnost.html` - Politika privatnosti
-- `uvjeti.html` - Uvjeti korištenja
+- `privatnost.php` - Politika privatnosti
+- `uvjeti.php` - Uvjeti korištenja
 
 ### Članci o sigurnosti
-- `clanak-analiza.html` - Analiza web stranica
-- `clanak-css.html` - CSS sigurnost
-- `clanak-html.html` - HTML sigurnost
-- `clanak-https.html` - HTTPS šifriranje
-- `clanak-incident.html` - Reakcija na sigurnosne incidente
-- `clanak-lozinke.html` - Sigurnost lozinki
-- `clanak-phishing.html` - Zaštita od phishinga
+- `clanak-analiza.php` - Analiza web stranica
+- `clanak-css.php` - CSS sigurnost
+- `clanak-php.php` - HTML sigurnost
+- `clanak-https.php` - HTTPS šifriranje
+- `clanak-incident.php` - Reakcija na sigurnosne incidente
+- `clanak-lozinke.php` - Sigurnost lozinki
+- `clanak-phishing.php` - Zaštita od phishinga
 
 ### Potvrdne stranice
-- `hvala-analiza.html` - Potvrda zahtjeva za analizu
-- `hvala-kontakt.html` - Potvrda kontakt poruke
-- `hvala-newsletter.html` - Potvrda prijave na newsletter
+- `hvala-analiza.php` - Potvrda zahtjeva za analizu
+- `hvala-kontakt.php` - Potvrda kontakt poruke
+- `hvala-newsletter.php` - Potvrda prijave na newsletter
