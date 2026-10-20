@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- TSD-4RT | DV | 22.09.2026. -->
+<!-- TSD-4RT | Marko Vuljanković | 22.09.2026. -->
 <html lang="hr">
 <head>
     <meta charset="UTF-8">
@@ -43,7 +43,7 @@
             <div>
                 <h3>Newsletter</h3>
                 <p>Kratke obavijesti o zaštiti, bez reklama. Adrese spremamo u Mailchimp (vidi privatnost).</p>
-                <form class="newsletter" action="hvala-newsletter.php" method="post">
+                <form class="newsletter" action="https://formspree.io/f/mbgjnewb" method="post">
                     <label for="footer-email">E-adresa
                         <input id="footer-email" name="email" type="email" required autocomplete="email" placeholder="ime@ustanova.hr">
                     </label>
