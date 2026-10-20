@@ -22,11 +22,11 @@
             <input type="checkbox" id="nav-toggle" class="nav-toggle">
             <label class="nav-toggle-label" for="nav-toggle" aria-label="Izbornik"><span></span></label>
             <nav class="main-nav" aria-label="Glavna navigacija">
-                <a href="novo.php">Novosti</a>
-                <a href="usluge.php">Naše usluge</a>
-                <a href="clanci.php">Članci</a>
-                <a href="o-nama.php">O nama</a>
-                <a href="kontakt.php">Kontakt</a>
+                <a href="novo.php" class="<?php echo ($trenutna_stranica == 'novo') ? 'aktivna' : ''; ?>">Novosti</a>
+                <a href="usluge.php" class="<?php echo ($trenutna_stranica == 'usluge') ? 'aktivna' : ''; ?>">Naše usluge</a>
+                <a href="clanci.php" class="<?php echo ($trenutna_stranica == 'clanci') ? 'aktivna' : ''; ?>">Članci</a>
+                <a href="o-nama.php" class="<?php echo ($trenutna_stranica == 'o-nama') ? 'aktivna' : ''; ?>">O nama</a>
+                <a href="kontakt.php" class="<?php echo ($trenutna_stranica == 'kontakt') ? 'aktivna' : ''; ?>">Kontakt</a>
             </nav>
         </div>
     </header>

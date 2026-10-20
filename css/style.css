@@ -670,3 +670,8 @@ textarea {
     position: relative;
   }
 }
+.aktivna {
+  font-weight: bold;
+  color: rgb(117, 117, 117);
+  border-bottom: 2px solid rgb(117, 117, 117);
+}

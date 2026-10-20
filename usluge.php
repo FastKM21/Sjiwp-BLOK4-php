@@ -13,7 +13,9 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<?php include 'zaglavlje.php'; ?>
+<?php 
+$trenutna_stranica = "usluge";
+include 'zaglavlje.php'; ?>
 
     <main id="sadrzaj">
         <div class="wrap page-hero">
@@ -103,6 +105,17 @@
                             </tr>
                         </thead>
                         <tbody>
+                            <?php
+                            $usluge5="Pomoć nakon incidenta ";
+                            $ukljuceno5="Poziv isti radni dan, pisani plan obavijesti, jedan tjedan pitanja e-poštom";
+                            $trajanje5= "po dogovoru";
+                            $cijena5= "od 1.200 €";
+
+                            $usluge6="Godišnji pregled";
+                            $ukljuceno6="Dva kraća pregleda stranice i jedna edukacija";
+                            $trajanje6= "12 mjeseci";
+                            $cijena6= "2.450 €";
+                            ?>
                             <tr>
                                 <td>Analiza početne stranice</td>
                                 <td>Pregled javne naslovnice i obrazaca, PDF s nalazima na hrvatskom</td>
@@ -128,16 +141,16 @@
                                 <td class="price">480 €</td>
                             </tr>
                             <tr>
-                                <td>Pomoć nakon incidenta</td>
-                                <td>Poziv isti radni dan, pisani plan obavijesti, jedan tjedan pitanja e-poštom</td>
-                                <td>po dogovoru</td>
-                                <td class="price">od 1.200 €</td>
+                                <td><?php echo $usluge5?></td>
+                                <td><?php echo $ukljuceno5?></td>
+                                <td><?php echo $trajanje5?></td>
+                                <td class="price"><?php echo $cijena5?></td>
                             </tr>
                             <tr>
-                                <td>Godišnji pregled</td>
-                                <td>Dva kraća pregleda stranice i jedna edukacija</td>
-                                <td>12 mjeseci</td>
-                                <td class="price">2.450 €</td>
+                                <td><?php echo $usluge5 ?></td>
+                                <td><?php echo $ukljuceno6?></td>
+                                <td><?php echo $trajanje6?></td>
+                                <td class="price"><?php echo $cijena6?></td>
                             </tr>
                         </tbody>
                     </table>

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Vulnguard d.o.o. pomaže školama, tvrtkama i građanima da razumiju digitalnu sigurnost i zaštite svoje web stranica.">
-    <title>Vulnguard — digitalna zaštita na razumljiv način</title>
+    <title><?php $naslovStranice = "Vulnguard — digitalna zaštita"; echo $naslovStranice?></title>
     <link rel="icon" href="vulnguard_icon.svg" type="image/svg+xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

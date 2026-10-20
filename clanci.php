@@ -13,7 +13,9 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<?php include 'zaglavlje.php'; ?>
+<?php 
+$trenutna_stranica = "clanci";
+include 'zaglavlje.php'; ?>
 
     <main id="sadrzaj">
         <div class="wrap page-hero">

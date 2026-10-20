@@ -52,8 +52,8 @@
                 <p class="hint">Obavezno polje. Preglednik provjerava format e-adrese.</p>
             </div>
         </div>
-        <div class="wrap legal">
-            <span>© 2026 Vulnguard d.o.o. Sva prava pridržana.</span>
+        <div class="wrap legal"> 
+            <span><?php $godina = date("Y"); echo "© ".$godina ." Vulnguard d.o.o. Sva prava pridržana."?></span>
             <span>
                 <a href="privatnost.php">Politika privatnosti</a> ·
                 <a href="uvjeti.php">Uvjeti korištenja</a>
